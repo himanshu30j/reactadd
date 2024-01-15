@@ -10,7 +10,7 @@
 
 // const user =  account.create(ID.unique(),"xyz.gmail.com","xyz@123");
 import {Client,Account,ID} from 'appwrite'
-import conf from '../src/config/conf';
+import conf from '../config/conf';
 
 class AuthService{
         client = new Client();

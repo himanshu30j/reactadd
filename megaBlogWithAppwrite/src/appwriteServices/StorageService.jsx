@@ -1,4 +1,4 @@
-import conf from "../src/config/conf";
+import conf from "../config/conf";
 import {Client,Databases ,ID, Query, Storage } from "appwrite";
 
 class StorageService {
